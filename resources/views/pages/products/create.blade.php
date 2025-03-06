@@ -99,8 +99,8 @@
                                         <span class="selectgroup-button">Produk 2</span>
                                     </label>
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="produk3" class="selectgroup-input">
-                                        <span class="selectgroup-button">Produk 3</span>
+                                        <input type="radio" name="category" value="other" class="selectgroup-input">
+                                        <span class="selectgroup-button">Other</span>
                                     </label>
                                 </div>
                             </div>

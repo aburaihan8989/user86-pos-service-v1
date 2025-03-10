@@ -90,13 +90,13 @@
                                 <label class="form-label">Category</label>
                                 <div class="selectgroup w-100">
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="produk1" class="selectgroup-input"
+                                        <input type="radio" name="category" value="layanan" class="selectgroup-input"
                                             checked="">
-                                        <span class="selectgroup-button">Produk 1</span>
+                                        <span class="selectgroup-button">Layanan</span>
                                     </label>
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="produk2" class="selectgroup-input">
-                                        <span class="selectgroup-button">Produk 2</span>
+                                        <input type="radio" name="category" value="produk" class="selectgroup-input">
+                                        <span class="selectgroup-button">Produk</span>
                                     </label>
                                     <label class="selectgroup-item">
                                         <input type="radio" name="category" value="other" class="selectgroup-input">

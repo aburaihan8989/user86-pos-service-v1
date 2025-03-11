@@ -31,11 +31,11 @@
                     <form action="{{ route('product.store') }}" method="POST" enctype="multipart/form-data">
                         @csrf
                         <div class="card-header">
-                            <h4>Input Data</h4>
+                            <h4>Masukan Data</h4>
                         </div>
                         <div class="card-body">
                             <div class="form-group">
-                                <label>Name</label>
+                                <label>Nama</label>
                                 <input type="text"
                                     class="form-control @error('name')
                                 is-invalid
@@ -48,7 +48,7 @@
                                 @enderror
                             </div>
                             <div class="form-group">
-                                <label>Cost Price</label>
+                                <label>Harga Modal</label>
                                 <input type="number"
                                     class="form-control @error('cost_price')
                                 is-invalid
@@ -61,7 +61,7 @@
                                 @enderror
                             </div>
                             <div class="form-group">
-                                <label>Sell Price</label>
+                                <label>Harga Jual</label>
                                 <input type="number"
                                     class="form-control @error('price')
                                 is-invalid
@@ -87,7 +87,7 @@
                                 @enderror
                             </div> --}}
                             <div class="form-group">
-                                <label class="form-label">Category</label>
+                                <label class="form-label">Kategori</label>
                                 <div class="selectgroup w-100">
                                     <label class="selectgroup-item">
                                         <input type="radio" name="category" value="salonsenam" class="selectgroup-input"
@@ -118,7 +118,7 @@
                             </div>
                         </div>
                         <div class="card-footer text-right">
-                            <button class="btn btn-primary">Submit</button>
+                            <button class="btn btn-primary">Simpan</button>
                         </div>
                     </form>
                 </div>

@@ -68,10 +68,10 @@
                                     <table class="table-striped table">
                                         <tr>
                                             <th>No</th>
-                                            <th>Name</th>
-                                            <th>Category</th>
-                                            <th>Cost Price</th>
-                                            <th>Sell Price</th>
+                                            <th>Nama</th>
+                                            <th>Kategori</th>
+                                            <th>Harga Modal</th>
+                                            <th>Harga Jual</th>
                                             <th>Photo</th>
                                             <th>Created At</th>
                                             <th>Action</th>

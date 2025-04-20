@@ -90,17 +90,17 @@
                                 <label class="form-label">Kategori</label>
                                 <div class="selectgroup w-100">
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="salonsenam" class="selectgroup-input"
+                                        <input type="radio" name="category" value="salon" class="selectgroup-input"
                                             checked="">
-                                        <span class="selectgroup-button">Salon/Senam</span>
+                                        <span class="selectgroup-button">Salon</span>
                                     </label>
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="warungcafe" class="selectgroup-input">
-                                        <span class="selectgroup-button">Warung/Cafe</span>
+                                        <input type="radio" name="category" value="layanan" class="selectgroup-input">
+                                        <span class="selectgroup-button">Layanan</span>
                                     </label>
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="toko" class="selectgroup-input">
-                                        <span class="selectgroup-button">Toko</span>
+                                        <input type="radio" name="category" value="other" class="selectgroup-input">
+                                        <span class="selectgroup-button">Other</span>
                                     </label>
                                 </div>
                             </div>

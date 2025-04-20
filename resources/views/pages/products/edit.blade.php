@@ -91,19 +91,19 @@
                                 <label class="form-label">Kategori</label>
                                 <div class="selectgroup w-100">
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="salonsenam" class="selectgroup-input"
-                                            @if ($product->category == 'salonsenam') checked @endif>
-                                        <span class="selectgroup-button">Salon/Senam</span>
+                                        <input type="radio" name="category" value="salon" class="selectgroup-input"
+                                            @if ($product->category == 'salon') checked @endif>
+                                        <span class="selectgroup-button">Salon</span>
                                     </label>
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="warungcafe" class="selectgroup-input"
-                                            @if ($product->category == 'warungcafe') checked @endif>
-                                        <span class="selectgroup-button">Warung/Cafe</span>
+                                        <input type="radio" name="category" value="layanan" class="selectgroup-input"
+                                            @if ($product->category == 'layanan') checked @endif>
+                                        <span class="selectgroup-button">Layanan</span>
                                     </label>
                                     <label class="selectgroup-item">
-                                        <input type="radio" name="category" value="toko" class="selectgroup-input"
-                                            @if ($product->category == 'toko') checked @endif>
-                                        <span class="selectgroup-button">Toko</span>
+                                        <input type="radio" name="category" value="other" class="selectgroup-input"
+                                            @if ($product->category == 'other') checked @endif>
+                                        <span class="selectgroup-button">Other</span>
                                     </label>
                                 </div>
                             </div>

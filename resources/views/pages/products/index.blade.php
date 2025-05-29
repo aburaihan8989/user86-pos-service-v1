@@ -87,8 +87,8 @@
                                                 </td>
                                                 <td>
                                                     {{-- {{ $product->category }} --}}
-                                                    @if ($product->category == 'salon')
-                                                        Salon
+                                                    @if ($product->category == 'laundry')
+                                                        Laundry
                                                     @elseif ($product->category == 'layanan')
                                                         Layanan
                                                     @elseif ($product->category == 'other')
